@@ -1,0 +1,19 @@
+{
+  "name": "curso-de-webpack",
+  "version": "1.0.0",
+  "description": "Este es el curso de webpack de platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@moises503",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
